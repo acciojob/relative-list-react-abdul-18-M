@@ -9,10 +9,8 @@ const App = () => {
     "Cousin"
   ];
 
-
   return (
     <div id="main">
-
       <ol key="relativeList">
         {relatives.map((relative, index) => {
           return (
@@ -22,7 +20,7 @@ const App = () => {
           );
         })}
       </ol>
-    </div >
+    </div>
   );
 };
 
